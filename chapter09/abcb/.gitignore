@@ -1,0 +1,31 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# abcb local state
+/.abcb/
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local runtime artifacts
+.env
+.env.*
+!.env.example
+*.pid
+
+# Claude (shadow — never committed)
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+.claude-mem/
